@@ -30,6 +30,9 @@
                     </a>
                     <ul class="dropdown-menu" role="menu">
                         <li>
+                            <a href="{{ route('user.edit', Auth::id()) }}">编辑资料</a>
+                        </li>
+                        <li>
                             <a href="{{ route('login') }}"
                                onclick="event.preventDefault();
                                document.getElementById('login-from').submit(); ">

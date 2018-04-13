@@ -12,10 +12,10 @@
                         <div class="media-body">
                             <hr>
                             <h4><strong>个人简介</strong></h4>
-                            <p>this is a summer center,good time,happly new yeal</p>
+                            <p>{{ $user->introduction }}</p>
                             <hr>
                             <h4><strong>注册于</strong></h4>
-                            <p>2017年12月</p>
+                            <p>{{ $user->created_at->diffForHumans() }}</p>
                         </div>
                     </div>
                 </dov>
