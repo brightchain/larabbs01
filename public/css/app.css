@@ -8407,3 +8407,11 @@ body {
   cursor: pointer;
 }
 
+.user-show-page .user-info .panel {
+  padding: 0 15px;
+}
+
+.user-show-page .user-info .panel .thumbnail {
+  margin-bottom: 0px;
+}
+

@@ -7,7 +7,7 @@
                 <dov class="panel-body">
                     <div class="media">
                         <div class="center">
-                            <img class="img-responsive img-thumbnail" src="https://fsdhubcdn.phphub.org/uploads/images/201709/20/1/PtDKbASVcz.png?imageView2/1/w/600/h/600" height="300px" width="300px">
+                            <img class="img-responsive img-thumbnail" src="{{ $user->avatar }}" height="300px" width="300px">
                         </div>
                         <div class="media-body">
                             <hr>
