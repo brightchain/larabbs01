@@ -12,7 +12,7 @@
     <link href=" {{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-<div id="app" class=" {{ route_class() }}-page">
+<div id="app" class="{{ route_class() }}-page">
     @include('layouts._header')
     <div class="container">
         @include('common._message')
