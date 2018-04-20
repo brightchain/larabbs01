@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf_token" content="{{ csrf_token() }}">
     <title>@yield('title', 'LaraBBS') - Laravel进阶教程</title>
+    <meta name="description" content="@yield('description','Laravel进阶教程')">
 
     <!-- css styles -->
     <link href=" {{ asset('css/app.css') }}" rel="stylesheet">
